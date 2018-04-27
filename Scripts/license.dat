@@ -1,0 +1,107 @@
+SERVER ccfwrp01f 005056BC7C89 4118
+DAEMON genesys.d /path_here port=4119
+FEATURE 3GP08520ACAA genesys.d 8.0 1-aug-2017 999999 E19477C2D4BE \
+	vendor_info="v8.0 - HA - CIM Platform" NOTICE="Genesys \
+	(Genesys) Lab" SIGN=B13A8252A840
+FEATURE 3GP08533ACAA genesys.d 8.0 1-aug-2017 999999 E56D1454040C \
+	vendor_info="v8.0 - HA - Framework" NOTICE="Genesys (Genesys) \
+	Lab" SIGN=D418E54651A0
+FEATURE 3GP08590ACAA genesys.d 8.0 1-aug-2017 99999 90D429134CD6 \
+	vendor_info="v8.0 - Genesys CIM Platform - MS" NOTICE="Genesys \
+	(Genesys) Lab" SIGN=042C366C4F02
+FEATURE 3GP08599ACAA genesys.d 8.0 1-aug-2017 99999 3535F2E0989C \
+	vendor_info="v8.0 - HA - Voice" NOTICE="Genesys (Genesys) Lab" \
+	SIGN=825BB0106C2A
+FEATURE 3GP08525ACAA genesys.d 8.0 1-aug-2017 99999 E0012A4554F4 \
+	vendor_info="v8.0 - Interaction Workspace" NOTICE="Genesys \
+	(Genesys) Lab" SIGN=C59A57E0A3EE
+FEATURE 3GP08707ACAA genesys.d 8.0 1-aug-2017 99999 C97F1E7BB046 \
+	vendor_info="v8.0 - Interaction Workspace SIP Endpnt" \
+	NOTICE="Genesys (Genesys) Lab" SIGN=508EBD804BA2
+FEATURE 3GP08619ACAA genesys.d 8.0 1-aug-2017 99999 21147759001B \
+	vendor_info="v8.0 - Genesys Info Mart" NOTICE="Genesys \
+	(Genesys) Lab" SIGN=F50087281BE0
+FEATURE 3GP08461ACAA genesys.d 8.0 1-aug-2017 100 F01A1FD17D5E \
+	vendor_info="v8.0 - Genesys E-mail" NOTICE="Genesys (Genesys) \
+	Lab" SIGN=CCFC56B851FC
+FEATURE 3GP08796ACAA genesys.d 8.0 1-aug-2017 20 16DF0F0A6DA9 \
+	vendor_info="v8.0 - Inbound Voice w Broadsoft Bw" \
+	NOTICE="Genesys (Genesys) Lab" SIGN=C6D97DAAA586
+FEATURE 3GP08692ACAA genesys.d 8.0 1-aug-2017 100 E829D710E7E6 \
+	vendor_info="v8.0 - Genesys Chat" NOTICE="Genesys (Genesys) \
+	Lab" SIGN=3D677878A448
+FEATURE 3GP08616ACAA genesys.d 8.0 1-aug-2017 100 021C9B50874E \
+	vendor_info="v8.0 - intelligent Workload Distribution" \
+	NOTICE="Genesys (Genesys) Lab" SIGN=99213370C46A
+FEATURE CLDistributed genesys.d 8.0 1-aug-2017 999999 DC109D49AD83 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=BA51F0DECE76
+FEATURE ha_redundancy genesys.d 8.0 1-aug-2017 999999 2C5BEC2D5886 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=986564B037CA
+FEATURE lds genesys.d 8.0 1-aug-2017 999999 934502C16364 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=C93A3954EC6C
+FEATURE MLDistributed genesys.d 8.0 1-aug-2017 999999 6DD5A159ABF1 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=1A4A8824EF1A
+FEATURE router_ha_option genesys.d 8.0 1-aug-2017 999999 6C71F32715F0 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=AE9F3FB2EFF0
+FEATURE cti_ha_option genesys.d 8.0 1-aug-2017 999999 626FA7DF1C0A \
+	NOTICE="Genesys (Genesys) Lab" SIGN=83DD2E706296
+FEATURE ISDK_FACTORY genesys.d 8.0 1-aug-2017 999999 0A79DDCE3528 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=04A69A6AEE56
+FEATURE router_seats genesys.d 8.0 1-aug-2017 100 13E867CDBAE5 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=C4F150F646C8
+FEATURE tserver_iscc genesys.d 8.0 1-aug-2017 999999 BEF0BF76CC8E \
+	NOTICE="Genesys (Genesys) Lab" SIGN=94A26A7CDF20
+FEATURE DESKTOP_SUPERVISOR genesys.d 7.0 1-aug-2017 20 AF16306B2B02 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=0F04AB2CDC42
+FEATURE tserver_sdn genesys.d 8.0 1-aug-2017 100 971B2AE54E38 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=DEA617FA3B36
+FEATURE tserver_tdn genesys.d 8.0 1-aug-2017 999999 5BEB7C4EDD69 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=FCE8886AE078
+FEATURE ics_email_webform_channel genesys.d 8.0 1-aug-2017 100 \
+	6D863D317C8F NOTICE="Genesys (Genesys) Lab" SIGN=81C40E80F2AA
+FEATURE ics_multi_media_agent_seat genesys.d 8.0 1-aug-2017 100 \
+	0CAA281D93D4 NOTICE="Genesys (Genesys) Lab" SIGN=C7051968FB28
+FEATURE csta_connector_bw_sdn genesys.d 8.0 1-aug-2017 100 \
+	AF7F7B7CCF1C NOTICE="Genesys (Genesys) Lab" SIGN=A15CBCEEC00E
+FEATURE tserver_cc_sdn genesys.d 8.0 1-aug-2017 100 7C3A85E25C03 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=8C5C016CF596
+FEATURE ics_live_web_channel genesys.d 8.0 1-aug-2017 100 \
+	3A93DF9758E3 NOTICE="Genesys (Genesys) Lab" SIGN=33F3842201E8
+FEATURE ics_custom_media_channel genesys.d 8.0 1-aug-2017 100 \
+	2FC3D62611A1 NOTICE="Genesys (Genesys) Lab" SIGN=FB7DD1C8E592
+FEATURE ISDK_QUEUE genesys.d 8.0 1-aug-2017 999999 C30A14125650 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=C3C8845E2814
+FEATURE GIS genesys.d 8.0 1-aug-2017 10 1B59EE94FE23 NOTICE="Genesys \
+	(Genesys) Lab" SIGN=210649BAD098
+FEATURE GIS_INTERACTIONSERVICE genesys.d 8.0 1-aug-2017 10 \
+	91F9FF7A997E NOTICE="Genesys (Genesys) Lab" SIGN=EFC32C280ED6
+FEATURE iwd_jms_cp genesys.d 8.0 1-aug-2017 4 BA33CEF791E8 \
+	NOTICE="Genesys (Genesys) Lab" SIGN=E10494902910
+
+
+#
+#NOTE: You can edit the hostname on the server line (1st arg),
+#      the port address on the server line (3rd arg), the path
+#      to the daemon on the daemon line (2nd arg), or any
+#      right-half of a string (b) of the form a=b where (a) is all
+#      lowercase. (For example, *** in  vendor_info="***" can be
+#      changed).  Any other changes will invalidate this license.
+#
+#  Order    : 63524883 
+#  Site#    : GAPA 
+#  IPN      : "Genesys (Genesys) Lab" 
+#  Requestor: "Taisuk Choi" (taisuk.choi@genesys.com) 
+#  Generated: 2017-02-12 10:45:41 
+# 
+# IMPORTANT NOTICE.  The provision of these licenses keys does not constitute a license grant from Genesys to Genesys to use the 
+software products. Genesys  is responsible to use these license keys only for software products for which it has a valid license from  
+Genesys, in the same quantity of licenses it has purchased, and in the manner dictated in the Master Software License Agreement.  If as a result of  
+a license audit conducted by Genesys or its authorized representatives, it is determined that Genesys has used Genesys software products 
+beyond its authorized use, Genesys shall pay to Genesys the applicable amounts for the licenses used in excess and up to two years 
+retroactive maintenance within thirty days of Genesys notification to Genesys of such shortfall. The use of the Genesys software products 
+is subject to the Master Software License Agreement. Genesys should maintain the license keys under confidentiality and 
+may not alter or  transfer these license files in any manner to third parties or Genesys  personnel without prior Genesys approval unless, 
+otherwise stated in the Master Software License Agreement. BY USING THESE LICENSE KEYS, Genesys IS ACCEPTING TO  BE BOUND 
+BY THIS IMPORTANT NOTICE. IF  Genesys  DOES NOT AGREE TO BE BOUND BY THIS IMPORTANT NOTICE IT SHOULD REFRAIN 
+FROM USING THE LICENSE KEYS AND IMMEDIATELY COMMUNICATE THIS TO GENESYS
+ 
