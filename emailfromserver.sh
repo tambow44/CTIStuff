@@ -2,10 +2,14 @@
 
 home=$(dirname "$0")
 
-EmailToAddress="CTIEngineers@vodafone.com"
-EmailFromAddress="TheGhostOfTomJoad@vodafone.co.nz"
+# *** Variables ***
+
+EmailToAddress=""
+EmailFromAddress=""
 Subject="Merry Christmas!"
 Attachment="$home/images/xmas.png"
+
+# *** Script ***
 
 sendmail -t <<EOT
 TO: $EmailToAddress
