@@ -2,14 +2,12 @@
 
 The purpose of this script is to...
 
-Tail GMMS logs off a users PC.
+Tail  logs off a users PC.
 
-C:\Users\727149\AppData\Local\Temp\GMMS\BNZ GMMS\
+$env:UserName
+Set-Variable -Name "env" -Value "UserName"
+Get-Content "C:\Users\%username%\AppData\Local\Temp\GMMS\BNZ GMMS\Softphone*.log" -Wait -Tail 30
 
 #>
 
-$env:UserName
-
-Set-Variable -Name "env" -Value "UserName"
-
-Get-Content "C:\Users\%username%\AppData\Local\Temp\GMMS\BNZ GMMS\Softphone*.log" -Wait -Tail 30
+Get-Content "%TEMP%\ICE.log" -Wait -Tail 30
