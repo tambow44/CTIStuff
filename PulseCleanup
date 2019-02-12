@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Description: 
+#    Automating Genesys Pulse Clean Up Tool
+# Author: 
+#    Thomas Blakely
+# Date: 
+#    17/01/2019
+
+# Initialise some variables
+	cleanUpTool='/opt/GCTI/pulse_collector/cleanuptool'
+	homeBase='/opt/GCTI/pulse'
+	arraySnaps=(. default tenant1 tenant2)
+
+# Time for some action ("All the ladies standing in the line for the bathroom~~")
+
+	for i in "${arraySnaps[@]}"; do
+			"${cleanUpTool}" "$homeBase/$i/snapshots"
+	done
+
+exit 0
